@@ -1,0 +1,35 @@
+led: 
+vcc - plus
+gnd - minus
+din - 12
+cs  - 10
+clk - 11
+
+
+joystick: 
+gnd - minus
++5М - plus
+VRX - A1
+VRY - A0
+SW  - 7
+
+bizer:
+minus
+port 8
+
+
+LCD:
+VSS(GND)-> minus
+VDD.....-> 5V(plus)
+V0......-> potenciometr
+RS......-> 12
+RW......-> minus
+E.......-> 11
+D4......-> 5
+D5......-> 4
+D6......-> 3
+D7......-> 2
+A(BLA)..-> plus
+K(BLK)..-> minus
+
+
